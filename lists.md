@@ -5,14 +5,14 @@
 The simpliest way to create a list is assigning "[ ]" into a variable. Note that is perfevtly find create an empty list 
 as well as a defined lsit.
 
-```
+```python
 mylist = ['monday', 'tuesday', 'wednesday']
 ```
 
 ## Access a list
 
 ### Specific item
-```
+```python
 mylist[1]
 ```
 **Output:** 'tuesday'
@@ -21,7 +21,7 @@ Note: the first item/position of a list is represented by the number 0. in this 
 in the second position in the list.
 
 ### Negative indexing
-```
+```python
 mylist[-1]
 mylist[-2]
 ```
@@ -34,7 +34,7 @@ Note: Indexing done backward. Last item is [-1], second last item [-2] and so on
 
 thislist = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'melon', 'mango']
 
-```
+```python
 mylist[2:5]
 mylist[-5:-3] 
 mylist[-2:-1] 
@@ -52,7 +52,7 @@ Note: ranges are inclusive to the left '[' but exclusive to the right ']' mylist
 
 ## Change an existing value inside a list
 
-```
+```python
 mylist = ['apple', 'banana', 'pear']
 mylist[1] = 'passion_fruit'
 print(mylist)
@@ -62,7 +62,7 @@ print(mylist)
 
 ## Add a new value
 
-```
+```python
 mylist.append('nispero')
 print(mylist)
 ```
@@ -71,7 +71,7 @@ print(mylist)
 ## Remove values
 ### Remove by label
 
-```
+```python
 mylist.remove('pear')
 print(mylist)
 ```
@@ -80,19 +80,20 @@ print(mylist)
 
 ### Remove by index
 
-```
+```python
 mylist.pop()
 print(mylist)
 ```
 
 **Output[1]:** ['apple', 'passion_fruit']
 
-```
+```python
 mylist.pop(0)
 print(mylist)
 ```
 
 **Output[1]:** ['passion_fruit']
+
 
 ## Loop through the list
 
